@@ -1,0 +1,38 @@
+.Library{
+    background-color: brown;
+    text-align: center;
+}
+button{
+    text-align:center;
+    margin: 20px;
+    background-color: gray;
+    /* border-radius: 5px; */
+     height: 25px; 
+     width: 90px; 
+}
+body{
+    text-align: center;
+    background-color: aquamarine;
+
+}
+.form{
+   top: 200px;
+   background-color: rgb(202, 137, 52); 
+   box-shadow: 5px 5px 5px 5px grey;
+   display: inline-block;
+   visibility: hidden;
+   border-radius: 5px;
+}
+#title{
+border-radius: 5px;
+}
+#author{
+    border-radius:px;
+}
+#year{
+border-radius: 5px;
+}
+#submit{
+background-color: brown;
+}
+    
