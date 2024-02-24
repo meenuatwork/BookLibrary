@@ -1,38 +1,60 @@
-.Library{
-    background-color: brown;
+body{
     text-align: center;
+    background-color: rgb(17, 20, 20);
+    font-family: cursive;
+
+}
+.Library{
+    background-color: rgb(168, 32, 32);
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    height: 50px;
+    box-shadow:0px 4px 4px 4px rgb(168, 32, 32) ;
 }
 button{
     text-align:center;
     margin: 20px;
-    background-color: gray;
-    /* border-radius: 5px; */
-     height: 25px; 
-     width: 90px; 
+    color: #fff;
+    padding: 15px;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 15px;
+    background-color: green;
+    box-shadow:0px 5px 5px 5px green;
 }
-body{
-    text-align: center;
-    background-color: aquamarine;
+h3{
+    font-size: 2rem;
+    color: #fff;
+    box-shadow: 0px 5px 5px 5px rgb(155, 55, 89);
+}
 
-}
 .form{
    top: 200px;
-   background-color: rgb(202, 137, 52); 
-   box-shadow: 5px 5px 5px 5px grey;
+   background-color:palevioletred; 
+   box-shadow: 0px 5px 5px 5px  rgb(202, 91, 145);
    display: inline-block;
    visibility: hidden;
+   color: rgb(29, 23, 23);
    border-radius: 5px;
 }
 #title{
 border-radius: 5px;
 }
 #author{
-    border-radius:px;
+    border-radius:5px;
 }
 #year{
 border-radius: 5px;
 }
 #submit{
 background-color: brown;
+padding: 10px 20px 10px 20px ;
+text-align: center;
+border-radius: 5px;
+color: #fff;
+font-size: 1.2rem;
+border: none;
+box-shadow: 0px 3px 3px 3px brown;
 }
     

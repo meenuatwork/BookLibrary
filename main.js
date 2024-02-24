@@ -31,10 +31,10 @@ form.addEventListener("submit", function (e) {
 let container2 = document.querySelector(".container2")
 function addCard(index) {
    let card = document.createElement("div")
-   card.style.boxShadow = "2px 2px  2px 2px"
-   card.style.maxWidth = "200px"
-   card.style.height = "240px"
-   card.style.background = "yellow";
+   card.style.boxShadow = "0px 2px 2px 2px"
+   card.style.maxWidth = "fit-content"
+   card.style.height = "fit-content"
+   card.style.background = " rgb(202, 91, 145)";
    card.style.textAlign = "center"
    let title = document.createElement("h3")
    card.appendChild(title)
@@ -62,7 +62,6 @@ function addCard(index) {
          readButton.style.backgroundColor = "green"
          readButton.textContent = "read";
          click = 0
-
       }
    })
 
